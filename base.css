@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    background-color: #303535d9;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: #339f2a;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    width: 90px;
+}
+
+.nomeLogo{
+    margin-left: 10px;
+    font-family: fantasy;
+    font-size: -webkit-xxx-large;
+
+}
+
+.main-container{
+    min-height: 80vh;
+    font-family: monospace;
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    justify-content: center;
+}
+
+.home{
+    text-decoration: none;
+    color: black;
+    display: contents;
+}
+
+.buttons-container{
+    display: flex;
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+.menuButton{
+    font-size: larger;
+    
+    display: flex !important;
+    width: 80px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #f3f1f1;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadTexto{
+    color: white;
+}
+
+.cadTexto:hover{
+    color: aliceblue;
+}
+
+.formShape{
+    padding: 10px;
+    width: 450px;
+    min-height: 350px;
+    background-color: whitesmoke;
+    border: solid black 3px;
+    color: black;
+}
+
+.fieldDiv{
+    display: grid;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+fieldset{
+    width: auto;
+    min-height: 320px;
+}
+
+.inputCaixa{
+    height: 30px;
+    background-color: #8080804a;
+}
+
+.linksForms{
+    text-align: center;
+}
+
+.submitButton{
+    font-size: large;
+    display: flex !important;
+    width: 170px;
+    height: 40px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#table{
+    width: 900px;
+    height: 900px;
+    background-color: brown;
+    border: 5px solid black;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.lane{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid;
+}
+
+.square{
+    width: 96px;
+    height: 96px;
+    border: solid 2px
+
+}
+
+.gridColor0{
+    background-color: green;
+}
+
+.gridColor1{
+    background-color: whitesmoke;
+}
+
+.checkerSquare{
+    background-color: red !important;  
+}
+
+.checkerSquare2{
+    background-color: blue !important;  
+}

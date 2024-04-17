@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkers.com</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <nav class="menu">
+
+        <a class="home" href="index.html">
+            <img class="logo" src="img/Table.png">
+            <h1 class="nomeLogo"> Checkers.Com </h1>
+        </a>
+        
+        <div class="buttons-container">
+            <a href="login.html" class="home menuButton">Login</a>
+            <a href="signup.html" class="home menuButton">Cadastro</a>
+            <a href="contato.html" class="home menuButton">Contato</a>
+        </div>
+
+
+
+    </nav>
+
+    <div class="main-container">
+
+    <p>Como nosso site ainda está em desenvolvimento, apreciamos qualquer feedback fornecido por você, jogador!</p>
+
+            <form action="index.html" class="formShape">
+
+                <fieldset>
+                    <legend>Feedback</legend>
+
+                    <div class="fieldDiv">
+                        <label>Assunto:</label>
+                        <select name="subject" required>
+                            <option value="" disabled selected hidden>Favor Selecionar</option>
+                            <option>Reportar Bug</option>
+                            <option>Reportar Jogador</option>
+                            <option>Sugestão</option>
+                            <option>Outro</option>
+                        </select><br>
+                    </div>
+
+                    <div class="fieldDiv">
+                        <label>Descrição do problema:</label>
+                        <textarea class="inputCaixa" required></textarea>
+                    </div>
+
+                    <div class="fieldDiv">
+                        <label>Nome de Usuário:</label>
+                        <input class="inputCaixa" type="text" required></textarea>
+                    </div>
+
+                    <div class="fieldDiv">
+                        <label>Email Para Retorno:</label>
+                        <input class="inputCaixa" type="email" required></textarea>
+                    </div>
+
+                    <button class="submitButton" type="submit">Enviar</button>
+
+                </fieldset>
+
+
+            </form>
+
+    </div>
+</body>
+</html>
